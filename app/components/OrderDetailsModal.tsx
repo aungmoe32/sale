@@ -27,7 +27,7 @@ const OrderDetailsModal: React.FC<OrderDetailsModalProps> = ({
           </Button>
         </div>
 
-        <ScrollArea className="flex-grow">
+        <ScrollArea className="flex-grow overflow-scroll">
           <div className="p-6 space-y-6">
             <CustomerInfo />
             <Separator />
